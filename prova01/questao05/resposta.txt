@@ -1,0 +1,13 @@
+Quando comparamos duas variáveis com ==, são comparados apenas os valores, sem levar em consideração o tipo.
+Por exemplo, o código seguinte retornaria true:
+    let a = 15;
+    let b = "15";
+    console.log(a == b);
+Isso se dá porque o valor das duas é igual, desconsiderando que uma é uma string.
+
+Já ao comparar variáveis usando ===, são comparados os valores e o tipo das variáveis.
+Por exemplo, o mesmo código acima, modificando o comparador, retornaria false:
+    let c = 15;
+    let d = "15";
+    console.log(c === d);
+Já neste caso, o resultado é false pois mesmo que sejam o mesmo valor numérico, o tipo delas difere.
