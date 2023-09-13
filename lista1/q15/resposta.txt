@@ -1,0 +1,7 @@
+O resultado é:
+Aurelio De Rosa
+undefined
+
+O motivo é que ao executar a função de getFullName, o this retorna do objeto onde ele está contido (prop) e não do pai (obj).
+
+O undefined é porque o test recebe a função getFullName, mas remove ela do objeto. Ao executar, o this não retorna nada, dando undefined.

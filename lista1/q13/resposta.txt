@@ -1,0 +1,3 @@
+A variável criada com var dentro de uma função tem o escopo local, sendo destruída ao fim da execução da função.
+
+Ao tentar imprimir a variável "a" fora do escopo da função, nos depararíamos com um ReferenceError.

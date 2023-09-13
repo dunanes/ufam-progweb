@@ -1,0 +1,3 @@
+O operador == checa se duas variáveis possuem o mesmo valor, mesmo que não sejam do mesmo tipo.
+
+O operador === checa se duas variáveis possuem o mesmo valor e compartilham do mesmo tipo.

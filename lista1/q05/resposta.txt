@@ -1,0 +1,4 @@
+As unidades absolutas sempre mantém o mesmo tamanho, independente do seu ambiente.
+Já as unidades relativas tem um tamanho que depende de diversas variáveis: tamanho do pai, tamanho da janela, tamanho da fonte, etc.
+
+A unidade em é relativa, ela é usada para fazer com que algo tenha o tamanho atrelado ao tamanho da fonte do elemento em que está.

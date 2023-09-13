@@ -1,0 +1,10 @@
+No Javascript, não declaramos as variáveis baseadas no tipo, mas no escopo.
+
+Cada variável pode receber um valor de qualquer tipo.
+
+Por exemplo:
+
+    let a = 2;
+    a = "oi";
+
+Este é um código válido em Javascript. Como podemos ver, uma variável que inicialmente recebeu um valor numérico pode receber um valor de string sem problemas.

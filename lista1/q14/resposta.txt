@@ -1,0 +1,8 @@
+O resultado seria:
+    undefined
+    2
+
+A variável "a" não foi inicializada antes do console.log, então ele não consegue acessar o valor dela.
+
+Já o segundo console log procura a função "foo()", que está visível, então a executa.
+A função é executada por conta do hoisting que a move para o início do escopo.

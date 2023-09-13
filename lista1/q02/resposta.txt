@@ -1,0 +1,2 @@
+Os atributos height e width são utilizados para dizer ao browser que há uma imagem com determinadas proporções naquela posição do documento.
+Com isso, o browser tem noção do layout da página, evitando deslocamentos de elementos durante o carregamento.

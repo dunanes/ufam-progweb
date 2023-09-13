@@ -1,0 +1,5 @@
+1. A manutenção do código fica mais fácil por conta da modularização
+
+2. O estilo pode ser aplicado a múltiplas páginas, mantendo o visual constante em todas as páginas do website
+
+3. O arquivo teria um versionamento separado, ajudando no rastreamento de mudanças

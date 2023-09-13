@@ -1,0 +1,1 @@
+O erro existente é a posição da tag <meta>, que por ser uma tag contendo informações sobre a página, deveria estar no <head>.
