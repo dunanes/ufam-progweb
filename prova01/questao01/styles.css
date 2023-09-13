@@ -1,4 +1,4 @@
-#externo{
+#externo {
     display: flex;
     justify-content: space-between;
     width: 600px;
@@ -6,16 +6,17 @@
     border: 5px solid black;
 }
 
-#vermelho{
+#vermelho {
     border: 5px solid green;
     background-color: red;
 }
 
-#azul{
+#azul {
     border: 5px solid yellow;
     background-color: blue;
 }
-.interno{
+
+.interno {
     display: flex;
     justify-content: center;
     align-items: center;

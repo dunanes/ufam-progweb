@@ -1,0 +1,11 @@
+#divsoma {
+    background-color: lightgray;
+    padding: 20px;
+    width: fit-content;
+    margin: 20px 0px;
+    border: 1px solid black;
+}
+
+.nums {
+    background-color: yellow;
+}
