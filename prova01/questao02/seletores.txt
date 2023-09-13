@@ -1,0 +1,5 @@
+Alguns seletores que podem ser usados para selecionar apenas o span no código são:
+1. span
+2. span.cl1
+3. p>span
+4. p span
