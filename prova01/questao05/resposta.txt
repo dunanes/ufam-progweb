@@ -1,4 +1,8 @@
-Quando comparamos duas variáveis com ==, são comparados apenas os valores, sem levar em consideração o tipo.
+Explicação correta
+Nota: 2.0
+
+Quando comparamos duas variáveis com ==, são comparados apenas os valores,
+ sem levar em consideração o tipo.
 Por exemplo, o código seguinte retornaria true:
     let a = 15;
     let b = "15";

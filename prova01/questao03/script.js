@@ -1,3 +1,6 @@
+// Código desenvolvido corretamente
+// Nota: 2.0
+
 document.getElementById("divsoma").addEventListener("click", function () {
     let num1 = parseInt(window.prompt("Digite um número"));
     let num2 = parseInt(window.prompt("Digite outro número"));
