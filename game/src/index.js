@@ -17,13 +17,17 @@ app.use(sass({
     src: `${__dirname}/../public/scss`,
     dest: `${__dirname}/../public/css`,
     debug: true,
-    outputStyle: "expanded",
+    outputStyle: "compressed",
     prefix: "/css",
 }));
 
 // Arquivos estáticos
 app.use("/css", express.static(`${__dirname}/../public/css`));
 app.use("/img", express.static(`${__dirname}/../public/img`));
+app.use("/js", [
+    express.static(`${__dirname}/../public/js`),
+    express.static(`${__dirname}/../node_modules/bootstrap/dist/js`),
+])
 app.use("/webfonts", express.static(`${__dirname}/../node_modules/@fortawesome/fontawesome-free/webfonts`));
 
 // Handlebars
