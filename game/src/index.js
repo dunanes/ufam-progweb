@@ -24,6 +24,7 @@ app.use(sass({
 // Arquivos estáticos
 app.use("/css", express.static(`${__dirname}/../public/css`));
 app.use("/img", express.static(`${__dirname}/../public/img`));
+app.use("/webfonts", express.static(`${__dirname}/../node_modules/@fortawesome/fontawesome-free/webfonts`));
 
 // Handlebars
 app.engine("handlebars", handlebars.engine());
