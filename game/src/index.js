@@ -3,12 +3,14 @@ const express = require("express");
 const router = require("./router/routes");
 const handlebars = require('express-handlebars');
 const sass = require("node-sass-middleware");
+const { Sequelize } = require('sequelize');
 
 require('dotenv').config()
-const PORT = process.env.PORT;
+const PORT = process.env.PORT || 3000;
 
 // Configurações do express
 const app = express();
+app.use(express.urlencoded({ extended: false }));
 app.use(router);
 app.use(logger("short"));
 

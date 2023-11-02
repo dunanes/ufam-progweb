@@ -6,15 +6,15 @@ const index = (req, res) => {
 };
 
 const sobre = (req, res) => {
-    const conteudo = 'Página sobre a aplicação';
-    res.render('main/sobre', {
-        conteudo
-    });
+    res.render('main/sobre');
 };
 
 const ui = (req, res) => {
-    const conteudo = 'Página sobre a aplicação';
     res.render('main/ui');
 };
 
-module.exports = { index, sobre, ui }
+const game = (req, res) => {
+    res.render('main/game');
+};
+
+module.exports = { index, sobre, ui, game }

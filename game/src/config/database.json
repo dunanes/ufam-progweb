@@ -1,0 +1,23 @@
+{
+  "development": {
+    "username": "dino",
+    "password": "senha123",
+    "database": "corridadino",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  },
+  "test": {
+    "username": "dino",
+    "password": "senha123",
+    "database": "corridadino",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  },
+  "production": {
+    "username": "dino",
+    "password": "senha123",
+    "database": "corridadino",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  }
+}
