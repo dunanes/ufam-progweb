@@ -10,3 +10,4 @@ Esse trabalho contém o jogo do dinossauro feito no trabalho 1, mas complementad
 - [SASS](https://sass-lang.com/): Adiciona várias funções que facilitam o uso do CSS.
 - [Fontawesome](https://fontawesome.com/): Fornece uma variedade de ícones para melhorar o visual da página.
 - [Bootstrap](https://getbootstrap.com/): Ajuda a estilizar a página sem muito trabalho.
+- [Bootswatch](https://bootswatch.com/): Fornece temas para o bootstrap.

@@ -8,9 +8,13 @@ const index = (req, res) => {
 const sobre = (req, res) => {
     const conteudo = 'Página sobre a aplicação';
     res.render('main/sobre', {
-        conteudo,
-        layout: false
+        conteudo
     });
 };
 
-module.exports = { index, sobre }
+const ui = (req, res) => {
+    const conteudo = 'Página sobre a aplicação';
+    res.render('main/ui');
+};
+
+module.exports = { index, sobre, ui }
